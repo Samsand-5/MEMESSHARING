@@ -19,7 +19,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var currentMemeUrl: String? = null
+     var currentMemeUrl: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         nextButton.isEnabled = false
         shareButton.isEnabled = false
         progressBar.visibility = View.VISIBLE
-        val url = "https://meme-api.herokuapp.com/gimme"
+        val url =  "https://meme-api.com/gimme/2"
 
         // Request a string response from the provided URL.
         val jsonObjectRequest = JsonObjectRequest(
