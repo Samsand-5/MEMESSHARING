@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         nextButton.isEnabled = false
         shareButton.isEnabled = false
         progressBar.visibility = View.VISIBLE
-        val url =  "https://meme-api.com/gimme/2"
+        val url =  "https://meme-api.herokuapp.com/gimme"
 
         // Request a string response from the provided URL.
         val jsonObjectRequest = JsonObjectRequest(
